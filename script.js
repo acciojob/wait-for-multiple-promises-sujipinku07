@@ -4,6 +4,7 @@ window.onload = function () {
 
   // Insert the loading row
   const loadingRow = document.createElement("tr");
+	loadingRow.id = "loading";
   const loadingCell = document.createElement("td");
   loadingCell.setAttribute("colspan", "2");
   loadingCell.textContent = "Loading...";
